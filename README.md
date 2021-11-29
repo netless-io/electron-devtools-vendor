@@ -5,13 +5,12 @@ Download and unzip crx file
 ## CLI
 
 ```txt
-Usage: extension-flat hash [option ...]
+Usage: extension-flat hash --name=NAME [option ...]
 
   Download and unzip crx file
 
     --help         display this usage info
     --name         folder name
-    --hash         extension id (e.g. fmkadmapgofadopljbjfkapdkoienihi)
     --remove       delete crx file after unzip complate
     --crxDir       crx folder
     --output       output path

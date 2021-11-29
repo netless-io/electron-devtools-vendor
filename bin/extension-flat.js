@@ -6,13 +6,12 @@ const { output, name, remove, crxDir, help, _ } = require("minimist")(process.ar
 const hash = _[0];
 
 if (help) {
-    console.log("Usage: extension-flat hash [option ...]");
+    console.log("Usage: extension-flat hash --name=NAME [option ...]");
     console.log("");
     console.log("  Download and unzip crx file");
     console.log("");
     console.log("    --help         display this usage info");
     console.log("    --name         folder name");
-    console.log("    --hash         extension id (e.g. fmkadmapgofadopljbjfkapdkoienihi)");
     console.log("    --remove       delete crx file after unzip complate");
     console.log("    --crxDir       crx folder");
     console.log("    --output       output path");
