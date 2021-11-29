@@ -6,7 +6,6 @@ const rimraf = require("rimraf");
 const mkdirp = require("mkdirp");
 
 /**
- * 
  * @param {object} config
  * @param {string} config.extensionHash - extension id (e.g. fmkadmapgofadopljbjfkapdkoienihi)
  * @param {string} config.outputFolder - output folder

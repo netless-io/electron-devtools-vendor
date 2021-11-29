@@ -21,7 +21,6 @@ Usage: extension-flat hash [option ...]
 
 ```javascript
 /**
- *
  * @param {object} config
  * @param {string} config.extensionHash - extension id (e.g. fmkadmapgofadopljbjfkapdkoienihi)
  * @param {string} config.outputFolder - output folder

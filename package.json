@@ -1,5 +1,5 @@
 {
-  "name": "extension-flat",
+  "name": "@netless/extension-flat",
   "version": "1.0.0",
   "main": "src/index.js",
   "description": "download and unzip crx file",
