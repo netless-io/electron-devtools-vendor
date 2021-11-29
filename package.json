@@ -1,0 +1,24 @@
+{
+  "name": "extension-flat",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "download and unzip crx file",
+  "repository": "git@github.com:netless-io/extension-flat.git",
+  "author": "Black-Hole1 <158blackhole@gmail.com>",
+  "bin": "./bin/extension-flat.js",
+  "license": "MIT",
+  "devDependencies": {
+    "minimist": "^1.2.5"
+  },
+  "dependencies": {
+    "debug": "^4.3.3",
+    "got": "^11.8.3",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "unzip-crx-3": "^0.2.0"
+  },
+  "files": [
+    "src",
+    "bin"
+  ]
+}
